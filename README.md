@@ -1,8 +1,10 @@
-Drawing ER models
+Domain Modeling
 ==============
 
-In this warmup we'll be drawing an ER model. To start, though, you'll draw how you conceptualize a database model. We'll be working through "user stories". Each story will introduce a new feature that the system needs to support.
+In this warmup we'll be exploring how you conceptualize a database (or a domain) visually. We'll be working through "user stories". Each story will introduce a new feature that the system needs to support.
 
+
+## Exercise
 You're helping build the next big real estate application. You and your team are all set to disrupt the market if you can successfully model your domain and release your software.
 
 You are handed several user stories. Before you get started, you decide to sit down and model out the domain to support such crazy requirements.
