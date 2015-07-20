@@ -10,6 +10,10 @@ Learn to visually represent classes with UML and translate between diagrams and 
 
 Learn how to model data in a database.  This is _super_ similar to Class Diagrams
 
+**[Lesson 3: Modeling Data](modeling-data.md)**
+
+Learn how to turn stories into Class Diagrams and ERDs.
+
 ---
 
 See an instructor after each lesson to ensure you are where you need to be.
