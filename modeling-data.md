@@ -4,8 +4,9 @@
 
 By the end of this lesson you should be able to:
 
-- Translate user stories into Class Diagrams / ERDs by extracting nouns from user stories
-- Propose more than one model for a given set of nouns (deciding between Classes/Entities, Attributes and in some cases Methods)
+- Generate diagrams from stories
+- Generate diagrams from wireframes
+- Propose more than one model for a given set of nouns (deciding between Entities / Attributes / Relationships etc...)
 
 ## Setting the stage
 
@@ -73,6 +74,10 @@ In a class diagram, there may be a `filteredMembers` method on the `Project` Cla
 
 ## Exercise
 
+**#1: Stories => Models**
+
+> **NOTE**: For this exercise, use ERD, Class Diagrams or any hybrid thereof.  For example, you could use a Class Diagram but use Crow's feet for relationships - it's all good!  Very, very few fullstack developers in the industry know what the fuck the academically correct way is to write these diagrams (including most of your instructors) - but they should all be able to generate _something_ readable, and read diagrams in any style.
+
 You're helping build the next big real estate application. You and your team are all set to disrupt the market if you can successfully model your domain and release your software.
 
 You are handed several user stories. Before you get started, you decide to sit down and model out the domain to support these crazy requirements.
@@ -93,6 +98,63 @@ As you go through each story, build up the model that you think will satisfy the
 Take some time to make sure you feel like it's right.
 
 Then take a look at [this sample model](images/listings.png)
+
+**#2: Wireframes => Models**
+
+Often times you have to take designs or wireframes and turn them into working code.  Doing so requires you to look at every wireframe carefully and identify each component.  Take the following wireframe:
+
+![](images/rantly.png)
+
+Take a moment to look very carefully at each part of the page.  Try to build a model from what you see.  Really take a few minutes - don't rush or look ahead.
+
+Ready?  Have your own model now?...
+
+OK - notice that you see a user profile pic and a "logout" button.  This implies something like:
+
+- User
+  - name
+  - profileImageUrl
+  - password
+
+Next, notice the "Latest Rants".  And also notice that there are two Rants at the top of the page.  Each Rant has a User associated with it on the screen, and has a title and a body.  This implies at least:
+
+- Rant
+  - userId
+  - subject
+  - body
+  - createdAt (because otherwise how would we know it was "recent"?)
+
+Notice that under each user there is a "follow" link.  How would you model that?  It might look something like:
+
+- User
+  - other fields...
+  - follows: Array of ids
+
+Or it might imply:
+
+- Followship
+  - userId
+  - followerId
+
+But the concept of any user being able to follow multiple other users _must_ be in your model _somehow_.
+
+Finally, notice that you can "favorite" a Rant.  This implies something like:
+
+- FavoritedRant
+  - userId
+  - rantId
+
+Or maybe:
+
+- User
+  - other fields...
+  - favoritedRantIds: Array of Rant ids
+
+OK - now your turn.  Take the following wireframe and create a new model of it:
+
+![](images/memberships-with-last-owner.png)
+
+Here's [one example](images/membership.png) of how you could do it.
 
 ## Reflect: Self-assess
 
