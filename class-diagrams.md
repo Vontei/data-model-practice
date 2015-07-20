@@ -118,7 +118,10 @@ Draw a relationship such that a Geek can have many Devices.
 Questions:
 
 - How would you draw a Class that has no methods?
+* Both attributes and methods are optional, so I believe you could just leave the third row out. 
 - Do you need to add a property for `devices` on `Geek`?  Why or why not?
+* You could add a property for devices... but it is not necessary because the buy(device) method will ultimately or at least could.. add
+ that device property for you. More thank likely it would create a new sub-class or array in that position.
 
 When you think you are done, double check that your diagram looks like [this](images/geek-devices.png).
 
