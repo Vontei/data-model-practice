@@ -118,10 +118,11 @@ Draw a relationship such that a Geek can have many Devices.
 Questions:
 
 - How would you draw a Class that has no methods?
-* Both attributes and methods are optional, so I believe you could just leave the third row out. 
+* Both attributes and methods are optional, so I believe you could just leave the third row out.
 - Do you need to add a property for `devices` on `Geek`?  Why or why not?
 * You could add a property for devices... but it is not necessary because the buy(device) method will ultimately or at least could.. add
- that device property for you. More thank likely it would create a new sub-class or array in that position.
+ that device property for you. I believe its scaffolding code..which you do not include in a UML diagram. More thank likely it would create a new sub-class or array in that position.
+
 
 When you think you are done, double check that your diagram looks like [this](images/geek-devices.png).
 
@@ -185,3 +186,22 @@ What new questions do you have now that you've seen these?  Write down 4:
 1. __
 1. __
 1. __
+
+
+
+
+## Notes to Self
+* Put common terminology for names
+* Choose complete singular nouns over class names
+* Name operations with a strong verb
+* Name attributes with a domain-based noun
+* Do not model scaffolding code.  Scaffolding code refers to the attributes and operations required to use basic functionality within your classes, such as the code required to implement relationships with other classes.  
+* Never show classes with just two compartments
+* Label uncommon class compartments
+* Include an ellipsis ( … ) at the end of incomplete lists
+* List static operations/attributes before instance operations/attributes
+* List operations/attributes in decreasing visibility
+* For parameters that are objects, only list their type
+* Develop consistent method signatures
+* Avoid stereotypes implied by language naming conventions
+* Indicate exceptions in an operation’s property string.  Exceptions can be indicated with a UML property string, an example of which is shown in     the above image.
