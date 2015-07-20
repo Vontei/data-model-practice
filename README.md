@@ -14,6 +14,10 @@ Learn how to model data in a database.  This is _super_ similar to Class Diagram
 
 Learn how to turn stories into Class Diagrams and ERDs.
 
+**[Lesson 4: Modeling Embedded Documents w/ Mongo](modeling-and-mongo.md)**
+
+Learn some nuances about how Mongo can embed documents, making diagrams harder to map directly.
+
 ---
 
 See an instructor after each lesson to ensure you are where you need to be.
@@ -21,3 +25,7 @@ See an instructor after each lesson to ensure you are where you need to be.
 ## Setup
 
 Fork and clone this repository.  When you write answers to questions, push and open a pull request.
+
+## Next steps:
+
+Research ORMs and ODMs to see how these concepts all intertwine.
