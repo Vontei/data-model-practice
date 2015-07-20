@@ -182,10 +182,11 @@ If you didn't do well on any of them, search Google Images for "UML Class Diagra
 
 What new questions do you have now that you've seen these?  Write down 4:
 
-1. __
-1. __
-1. __
-1. __
+1) How specific are you expected to be in the workplace, on the whiteboard, etc.?
+2) Am I supposed to begin with conceptual models, associative models, or generalized?
+3) Who is responsible for this architecture in the workplace, manager, team, self..?
+4) Is there a formal approach to architecture...a guide or system or schema based on
+business needs or company preference or based on existing architecture?
 
 
 
