@@ -178,13 +178,19 @@ Go through the Objectives above.  For each one, how do you think you did?
 
 If you didn't do well on any of them, search Google Images for "UML Class Diagram" and try writing code that implements the diagrams.  Also search through any code in `node_modules` in any Express app, look for constructor functions, and try to model them.
 
+* I understand level 1.
+
 ## Reflect - New Questions
 
 What new questions do you have now that you've seen these?  Write down 4:
 
+
 1) How specific are you expected to be in the workplace, on the whiteboard, etc.?
+
 2) Am I supposed to begin with conceptual models, associative models, or generalized?
+
 3) Who is responsible for this architecture in the workplace, manager, team, self..?
+
 4) Is there a formal approach to architecture...a guide or system or schema based on
 business needs or company preference or based on existing architecture?
 
@@ -192,6 +198,7 @@ business needs or company preference or based on existing architecture?
 
 
 ## Notes to Self
+* Keep in mind, cardinality can be generic or specific based on needs.
 * Put common terminology for names
 * Choose complete singular nouns over class names
 * Name operations with a strong verb
