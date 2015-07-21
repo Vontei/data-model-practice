@@ -166,7 +166,9 @@ If not, find someone who has gotten past this, and ask them to generate user sto
 
 What new questions do you have now?  List 4 here:
 
-1. _
-1. _
-1. _
+1. How do you know when to move into class or erd models..?
+
+1. Is membership often treated as a collection, document, or its own class?
+
+1. 
 1. _

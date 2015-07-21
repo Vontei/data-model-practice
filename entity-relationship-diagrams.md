@@ -123,7 +123,9 @@ There's no rush - take your time and review / ask your peers / build sample apps
 
 What new questions do you have?  Write 4 of them down here:
 
-1. _
-1. _
+1) Why do we use Object Ids for updating the database? It seems unnecessarily messy.
+
+2) Is the seed.sh the "standard" inserting updating.. or is it preference.
+
 1. _
 1. _
